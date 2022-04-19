@@ -14,7 +14,16 @@ entity Blog {
   handle String required minlength(2)
 }
 
+/**
+ * This is a comment
+ * about a class
+ * @author Someone
+ */
 entity Post {
+/**
+   * This comment will also be used!
+   * @type...
+   */
   title String required
   content TextBlob required
   date Instant required
